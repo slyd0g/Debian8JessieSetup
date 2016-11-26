@@ -2,9 +2,8 @@
 Run on a fresh install of Debian 8 Jessie to create a new user, give sudo privileges, update your system, update your source list and more! 
 
 For the Wi-Fi drivers I used the following because my computers used them (in the future I will add more support for other cards):
-  - iwlwifi (Intel network cards)
-  - firmware-b43-installer (Broadcom 43xx network cards)
-  - <a href="http://www.quora.com/Adam-DAngelo">Quora profile link for Adam D'Angelo</a>
+  - <a href="https://wiki.debian.org/iwlwifi"> iwlwifi (Intel network cards)</a>
+  - <a href= "https://packages.debian.org/jessie/kernel/firmware-b43-installer">firmware-b43-installer (Broadcom 43xx network cards)</a>
   
 # Install
 1. Become a super user with: su
