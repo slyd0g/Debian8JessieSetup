@@ -6,8 +6,7 @@ For the Wi-Fi drivers I used the following because my computers used them (in th
   - <a href= "https://packages.debian.org/jessie/kernel/firmware-b43-installer">firmware-b43-installer (Broadcom 43xx network cards)</a>
   
 # Install
-1. Become a super user with: su
-  1a. Your root password will be required to do this.
+1. Become a super user with: su (you will be prompt for the root password you set during installation)
 2. Download "git" with: apt-get install git
 3. Clone the repository: sudo git clone https://github.com/justinbui/Debian8JessieSetup
 4. Make the file an executable: chmod u+x mainscript.sh
